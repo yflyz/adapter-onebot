@@ -1,34 +1,34 @@
 ---
-sidebar_position: 1
-description: 安装
+侧栏_位置：1
+描述：安装
 
 options:
   menu:
-    weight: 10
-    category: guide
+重量：10
+类别：指南
 ---
 
 # 安装
 
-## 安装 NoneBot OneBot 适配器
+##安装 NoneBot
 
-```bash
-nb adapter install nonebot-adapter-onebot
+```猛敲
+nb适配器安装nonebot-适配器-onebot
 ```
 
 或者使用 pip
 
-```bash
-pip install nonebot-adapter-onebot
+```猛敲
+安装nonebot-适配器-onebot
 ```
 
 ## 加载适配器
 
-### OneBot V11
+###OneBot V11
 
 ```python title=bot.py {2,7}
-import nonebot
-from nonebot.adapters.onebot.v11 import Adapter
+进口nonebot
+从nonebot.adapters.onebot.v11导入适配器
 
 nonebot.init()
 
@@ -36,7 +36,7 @@ driver = nonebot.get_driver()
 driver.register_adapter(Adapter)
 ```
 
-### OneBot V12
+###OneBot V12
 
 ```python title=bot.py {2,7}
 import nonebot
